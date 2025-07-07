@@ -16,6 +16,11 @@ https://github.com/user-attachments/assets/8b913cc6-8cee-444d-9390-0e10e5c31d92
 
 https://github.com/user-attachments/assets/e748dbdd-c65f-4a9b-801a-85a4809ce08d
 
+# Editing 
+By default unselcted tab is fully transparent, you can change values for how much you want selected tab  , unselected tab and hovered tab to be opaque/transparent in here 
+![ff](https://github.com/user-attachments/assets/453fba24-2309-42ae-a2d6-6ef4b9a0a0f9)
+
+
 # Disclosure
 
 The css is made by a collection of various different css snippets i found online, i'm not the author of any , i'm just a collector and editor

@@ -14,7 +14,11 @@ A simple chrome.css file for Firefox, that enables better mica ui for the browse
 https://github.com/user-attachments/assets/8b913cc6-8cee-444d-9390-0e10e5c31d92
 
 
-https://github.com/user-attachments/assets/e748dbdd-c65f-4a9b-801a-85a4809ce08d
+
+
+https://github.com/user-attachments/assets/35a89923-57f7-4793-bbdf-aa83ec482608
+
+
 
 # Editing 
 By default unselcted tab is fully transparent, you can change values for how much you want selected tab  , unselected tab and hovered tab to be opaque/transparent in here 

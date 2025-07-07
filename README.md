@@ -1,5 +1,5 @@
 # MicaBlur-Firefox
-A simple chrome.css file for Firefox, that enables better mica ui for the browser and scrollable bookmark bar
+A simple chrome.css file for Firefox, that enables better mica ui for the browser, rounded tabs and scrollable bookmark bar
 
 
 # install

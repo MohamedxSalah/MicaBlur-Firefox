@@ -11,7 +11,11 @@ A simple chrome.css file for Firefox, that enables better mica ui for the browse
 
 # Showcasing
 
-https://github.com/user-attachments/assets/8b913cc6-8cee-444d-9390-0e10e5c31d92
+
+
+https://github.com/user-attachments/assets/f3b70c9c-09f4-4d4c-8499-9853163b160c
+
+
 
 
 

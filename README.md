@@ -25,7 +25,8 @@ https://github.com/user-attachments/assets/35a89923-57f7-4793-bbdf-aa83ec482608
 
 
 # Editing 
-By default unselcted tab is fully transparent, you can change values for how much you want selected tab  , unselected tab and hovered tab to be opaque/transparent in here 
+By default unselcted tab is fully transparent, you can change values for how much you want selected tab  , unselected tab and hovered tab to be opaque/transparent in here
+just edited current color value
 ![ff](https://github.com/user-attachments/assets/453fba24-2309-42ae-a2d6-6ef4b9a0a0f9)
 
 

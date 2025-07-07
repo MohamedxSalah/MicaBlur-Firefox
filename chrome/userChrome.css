@@ -1,0 +1,152 @@
+/* UserChrome.css */
+
+#sidebar-main, #sidebar-box {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+#navigator-toolbox {
+  background-color: transparent !important;
+   border-bottom: none !important;
+}
+
+#main-window {
+  background-color: transparent !important;
+}
+
+#PersonalToolbar {
+  background-color: transparent !important;
+}
+
+#nav-bar {
+  border-top: none !important;
+}
+
+#nav-bar{
+  background-color: transparent !important;
+}
+
+/* Search box transparency */
+#urlbar {
+  --toolbar-field-background-color:  color-mix(in srgb, currentColor 18%, transparent) !important;   
+}
+
+/* Fixing window control buttons, could need a change with different resolutions or windows scaling */
+#navigator-toolbox .titlebar-buttonbox-container{
+  height: 28px;
+}
+
+/* Fixing window control buttons, could need a change with different resolutions or windows scaling */
+:root[sizemode="maximized"] #navigator-toolbox .titlebar-close .toolbarbutton-icon{
+/*   opacity:0; */
+  margin-right:2px !important;
+} 
+
+/* Remove the white line around the content window */
+u/media
+ (-moz-bool-pref: "sidebar.revamp") {
+  #tabbrowser-tabbox {
+    outline: none !important;
+/*     box-shadow: none !important; */
+  }
+}
+/* ... other styles ... */
+
+/* Make selected tabs slightly transparent */
+.tab-background[selected] {
+  background-color: color-mix(in srgb, currentColor 9%, transparent) !important;   
+}
+
+/* Unselected tabs color */
+.tab-background:not([selected]) {
+  background-color: color-mix(in srgb, currentColor 0%, transparent) !important;
+}
+
+/* Hovered tab color */
+.tabbrowser-tab:hover .tab-background {
+  background-color: color-mix(in srgb, currentColor 12%, transparent) !important;
+}
+
+.toolbar-menupopup, menupopup {
+  appearance: auto !important;
+  --panel-background: transparent !important;
+  --panel-shadow-margin: 0 !important;
+}
+
+/* handle all mica background */
+.urlbarView,
+#browser:not(.browser-toolbox-background),
+#urlbar-results,
+#urlbar,
+browser#sidebar,
+menupopup,
+panel:not(#autoscroller),
+tooltip,
+window#webextpanels-window,
+slot[part="content"] {
+  background-color: transparent !important;
+  appearance: menupopup !important;
+  --panel-shadow-margin: 0px !important;
+}
+
+/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/scrollable_bookmarks_toolbar.css made available under Mozilla Public License v. 2.0
+See the above repository for updates as well as full license text. */
+
+/* Makes the bookmarks toolbar scrollable via mouse scroll or scrollbar */
+
+/* allow scrolling */
+#PlacesToolbarItems {
+    overflow-x: auto !important;
+}
+
+/* restore visibility of hidden bookmarks */
+.bookmark-item {
+    visibility: initial !important
+}
+
+/* hide overflow menu */
+#PlacesToolbar #PlacesChevron {
+    visibility: collapse !important;
+}
+
+/* force thin scrollbar */
+#PlacesToolbarItems {
+    scrollbar-width: thin !important;
+}
+
+/*
+When the Browser Window reaches a small enough width or the amount of Bookmarks overlap the browsers width, overlapping bookmark items are:
+1. set to hidden. 
+2. duplicated into the overflow menu.
+
+This style will simply:
+1. enable scrolling on the toolbar.
+2. restore visibility of hidden bookmarks.
+
+You can use the scrollable toolbar alongside the overflow menu by removing Lines 16-19
+*/
+:root {
+    clip-path: inset(0 round 8px);
+}
+#urlbar:is([focused]) > hbox#urlbar-background {
+  background: transparent !important;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+#urlbar:is([open]) hbox#urlbar-background {
+  background: #ffffff00 !important;
+  border-bottom-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  backdrop-filter: blur(25px) !important;
+  box-shadow: 0 0px 5px rgba(115, 106, 106, 0.45) !important;
+}
+.urlbarView-row {
+  &[selected] {
+    background-color: transparent !important;
+  }
+}
+/* making tabs rounded */
+.tab-background {
+  border-radius: 10px 10px 10px 10px !important; /* Top-left, Top-right, Bottom-right, Bottom-left */
+}

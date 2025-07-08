@@ -5,8 +5,11 @@ A simple chrome.css file for Firefox, that enables better mica ui for the browse
 # install
 
 1- Download the chrome folder and put it in your user profile folder
+
 2- Go to about:config and activate the key toolkit.legacyUserProfileCustomizations.stylesheets , widget.windows.mica and browser.theme.native-theme
+
 3- leave widget.windows.mica.toplevel-backdrop at 0 if you want mica alt, change it to 1 for mica normal , and change it to 2 if you want blur (acrylic)
+
 4- Enjoy
 
 # Showcasing

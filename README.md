@@ -1,10 +1,10 @@
 # MicaBlur-Firefox
-A simple chrome.css file for Firefox, that enables better mica ui for the browser, rounded tabs and scrollable bookmark bar
+A simple userchrome.css file for Firefox, that enables better mica ui for the browser, rounded tabs and scrollable bookmark bar
 
 
 # install
 
-1- Download the chrome folder and put it in your user profile folder
+1- Download the userchrome.css and put inside a chrome folder and put it in your user profile folder
 
 2- Go to about:config and activate the key toolkit.legacyUserProfileCustomizations.stylesheets , widget.windows.mica and browser.theme.native-theme
 
